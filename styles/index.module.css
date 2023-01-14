@@ -1,0 +1,33 @@
+.testSwitch{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0 0.5rem 0 0.5rem;
+    margin: 2rem;
+    background-color: #E9F8FE;
+    width: 7rem;
+    height: 4rem;
+    border-radius: 2rem;
+}
+
+.testSwitch[data-switched = "true"]{
+    justify-content: flex-end;
+}
+
+.switchNob{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    background-color: #45DCFF;
+}
+
+.testWord{
+    font-size: 1rem;
+}
+
+.testWord[data-clicked = "true"]{
+    font-size: 3rem;
+}

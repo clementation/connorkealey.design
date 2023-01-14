@@ -5,7 +5,6 @@
 
 Dec 22, 2022
 
-The Plan:
 - Implement front end using nextJS.
 - Here's the [documentation](https://nextjs.org/docs/getting-started)
 - Why? While it may be slightly overblown for my portfolio site, it will be a good introduction to typescript and redux state management for use on a more complex project. The advantages described in [this Article](https://www.imaginarycloud.com/blog/next-js-vs-react/) peaked my interest.

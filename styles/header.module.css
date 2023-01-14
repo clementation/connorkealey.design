@@ -1,0 +1,43 @@
+.headerName{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: var(--headerHeight);
+    padding-left: 5rem;
+}
+
+.headerNameConnor{
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: var(--headerNameSize);
+    letter-spacing: 0.04rem;
+}
+
+.headerNameKealey{
+    font-family: sofia-pro-soft, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: var(--headerNameSize);
+    letter-spacing: 0.27rem;
+    transform: translateY(-0.15rem);
+}
+
+.navigation{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 100%;
+    height: var(--headerHeight);
+    gap: 2rem;
+}
+
+.navItem{
+    font-size: 1rem;
+}
+
+.navItem[data-selected = "true"]{
+    font-size: 2rem;
+}
